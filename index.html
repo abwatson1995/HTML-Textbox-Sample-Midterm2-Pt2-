@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Midterm 2 Part 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>Midterm 2 Part 2</h1>
+
+    <strong>Phone Number:</strong>
+    <input type="text" name="phone" class="phone form-control" value="7898978998">
+</div>
+
+<script>
+    $(document).ready(function(){
+        $('.phone').inputmask('999-999-9999');
+    });
+</script>
+
+</body>
+</html>
